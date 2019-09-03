@@ -5,19 +5,19 @@ info:
 host: "hhkrk0q3gg.execute-api.ap-south-1.amazonaws.com"
 basePath: "/Development"
 schemes:
-- "https"
+  - "https"
 paths:
   /customer:
     get:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_customer_get/invocations"
         responses:
@@ -29,14 +29,14 @@ paths:
         type: "aws_proxy"
     post:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_customer_post/invocations"
         responses:
@@ -48,14 +48,14 @@ paths:
         type: "aws_proxy"
     put:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_customer_put/invocations"
         responses:
@@ -67,14 +67,14 @@ paths:
         type: "aws_proxy"
     delete:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_customer_delete/invocations"
         responses:
@@ -86,9 +86,9 @@ paths:
         type: "aws_proxy"
     options:
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
@@ -111,19 +111,19 @@ paths:
               method.response.header.Access-Control-Allow-Origin: "'*'"
         passthroughBehavior: "when_no_match"
         requestTemplates:
-          application/json: "{\"statusCode\": 200}"
+          application/json: '{"statusCode": 200}'
         type: "mock"
   /customer/customersearchbyname:
     get:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_Customer_Search_By_Name/invocations"
         responses:
@@ -135,9 +135,9 @@ paths:
         type: "aws_proxy"
     options:
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
@@ -160,19 +160,19 @@ paths:
               method.response.header.Access-Control-Allow-Origin: "'*'"
         passthroughBehavior: "when_no_match"
         requestTemplates:
-          application/json: "{\"statusCode\": 200}"
+          application/json: '{"statusCode": 200}'
         type: "mock"
   /customer/customersearchbyphone:
     get:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_customer_search_by_phone/invocations"
         responses:
@@ -184,9 +184,9 @@ paths:
         type: "aws_proxy"
     options:
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
@@ -209,19 +209,19 @@ paths:
               method.response.header.Access-Control-Allow-Origin: "'*'"
         passthroughBehavior: "when_no_match"
         requestTemplates:
-          application/json: "{\"statusCode\": 200}"
+          application/json: '{"statusCode": 200}'
         type: "mock"
   /driver:
     get:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_driver_get/invocations"
         responses:
@@ -233,14 +233,14 @@ paths:
         type: "aws_proxy"
     post:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_driver_create/invocations"
         responses:
@@ -252,14 +252,14 @@ paths:
         type: "aws_proxy"
     put:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_driver_put/invocations"
         responses:
@@ -271,14 +271,14 @@ paths:
         type: "aws_proxy"
     delete:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_driver_delete/invocations"
         responses:
@@ -290,9 +290,9 @@ paths:
         type: "aws_proxy"
     options:
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
@@ -315,19 +315,19 @@ paths:
               method.response.header.Access-Control-Allow-Origin: "'*'"
         passthroughBehavior: "when_no_match"
         requestTemplates:
-          application/json: "{\"statusCode\": 200}"
+          application/json: '{"statusCode": 200}'
         type: "mock"
   /driver/blockunblock:
     put:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_driver_blockUnbock/invocations"
         responses:
@@ -339,9 +339,9 @@ paths:
         type: "aws_proxy"
     options:
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
@@ -364,19 +364,19 @@ paths:
               method.response.header.Access-Control-Allow-Origin: "'*'"
         passthroughBehavior: "when_no_match"
         requestTemplates:
-          application/json: "{\"statusCode\": 200}"
+          application/json: '{"statusCode": 200}'
         type: "mock"
   /driver/fetchdriverbasedondriverid:
     get:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_fetchDriverBasedOnDriverId/invocations"
         responses:
@@ -388,9 +388,9 @@ paths:
         type: "aws_proxy"
     options:
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
@@ -413,19 +413,19 @@ paths:
               method.response.header.Access-Control-Allow-Origin: "'*'"
         passthroughBehavior: "when_no_match"
         requestTemplates:
-          application/json: "{\"statusCode\": 200}"
+          application/json: '{"statusCode": 200}'
         type: "mock"
   /driver/fetchdriverbasedonteamid:
     get:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_fetchDriverBasedOnteamId/invocations"
         responses:
@@ -437,9 +437,9 @@ paths:
         type: "aws_proxy"
     options:
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
@@ -462,19 +462,19 @@ paths:
               method.response.header.Access-Control-Allow-Origin: "'*'"
         passthroughBehavior: "when_no_match"
         requestTemplates:
-          application/json: "{\"statusCode\": 200}"
+          application/json: '{"statusCode": 200}'
         type: "mock"
   /driver/fetchdriversbasedondriverstatus:
     get:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_fetchDriversBasedOnDriverStatus/invocations"
         responses:
@@ -486,9 +486,9 @@ paths:
         type: "aws_proxy"
     options:
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
@@ -511,19 +511,19 @@ paths:
               method.response.header.Access-Control-Allow-Origin: "'*'"
         passthroughBehavior: "when_no_match"
         requestTemplates:
-          application/json: "{\"statusCode\": 200}"
+          application/json: '{"statusCode": 200}'
         type: "mock"
   /driver/fetchlocation:
     get:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_driver_location_get/invocations"
         responses:
@@ -535,9 +535,9 @@ paths:
         type: "aws_proxy"
     options:
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
@@ -560,19 +560,19 @@ paths:
               method.response.header.Access-Control-Allow-Origin: "'*'"
         passthroughBehavior: "when_no_match"
         requestTemplates:
-          application/json: "{\"statusCode\": 200}"
+          application/json: '{"statusCode": 200}'
         type: "mock"
   /manager:
     get:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_manager_get/invocations"
         responses:
@@ -584,14 +584,14 @@ paths:
         type: "aws_proxy"
     post:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_manager_post/invocations"
         responses:
@@ -603,14 +603,14 @@ paths:
         type: "aws_proxy"
     delete:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_manager_delete/invocations"
         responses:
@@ -622,9 +622,9 @@ paths:
         type: "aws_proxy"
     options:
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
@@ -647,19 +647,19 @@ paths:
               method.response.header.Access-Control-Allow-Origin: "'*'"
         passthroughBehavior: "when_no_match"
         requestTemplates:
-          application/json: "{\"statusCode\": 200}"
+          application/json: '{"statusCode": 200}'
         type: "mock"
   /task:
     get:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_task_alltasks/invocations"
         responses:
@@ -671,14 +671,14 @@ paths:
         type: "aws_proxy"
     post:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_task_post/invocations"
         responses:
@@ -690,14 +690,14 @@ paths:
         type: "aws_proxy"
     put:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_task_update/invocations"
         responses:
@@ -709,14 +709,14 @@ paths:
         type: "aws_proxy"
     delete:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_task_delete/invocations"
         responses:
@@ -728,9 +728,9 @@ paths:
         type: "aws_proxy"
     options:
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
@@ -753,19 +753,19 @@ paths:
               method.response.header.Access-Control-Allow-Origin: "'*'"
         passthroughBehavior: "when_no_match"
         requestTemplates:
-          application/json: "{\"statusCode\": 200}"
+          application/json: '{"statusCode": 200}'
         type: "mock"
   /task/assigntask:
     post:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_task_assign/invocations"
         responses:
@@ -777,9 +777,9 @@ paths:
         type: "aws_proxy"
     options:
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
@@ -802,19 +802,19 @@ paths:
               method.response.header.Access-Control-Allow-Origin: "'*'"
         passthroughBehavior: "when_no_match"
         requestTemplates:
-          application/json: "{\"statusCode\": 200}"
+          application/json: '{"statusCode": 200}'
         type: "mock"
   /task/getstatuslist:
     get:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_getstatusList/invocations"
         responses:
@@ -826,9 +826,9 @@ paths:
         type: "aws_proxy"
     options:
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
@@ -851,19 +851,19 @@ paths:
               method.response.header.Access-Control-Allow-Origin: "'*'"
         passthroughBehavior: "when_no_match"
         requestTemplates:
-          application/json: "{\"statusCode\": 200}"
+          application/json: '{"statusCode": 200}'
         type: "mock"
   /task/orderid:
     get:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_task_fetch_by_orderid/invocations"
         responses:
@@ -875,9 +875,9 @@ paths:
         type: "aws_proxy"
     options:
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
@@ -900,19 +900,19 @@ paths:
               method.response.header.Access-Control-Allow-Origin: "'*'"
         passthroughBehavior: "when_no_match"
         requestTemplates:
-          application/json: "{\"statusCode\": 200}"
+          application/json: '{"statusCode": 200}'
         type: "mock"
   /task/taskid:
     get:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_task_fetch_by_taskid/invocations"
         responses:
@@ -924,9 +924,9 @@ paths:
         type: "aws_proxy"
     options:
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
@@ -949,19 +949,19 @@ paths:
               method.response.header.Access-Control-Allow-Origin: "'*'"
         passthroughBehavior: "when_no_match"
         requestTemplates:
-          application/json: "{\"statusCode\": 200}"
+          application/json: '{"statusCode": 200}'
         type: "mock"
   /task/taskstatus:
     get:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_task_status_fetch/invocations"
         responses:
@@ -973,9 +973,9 @@ paths:
         type: "aws_proxy"
     options:
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
@@ -998,19 +998,19 @@ paths:
               method.response.header.Access-Control-Allow-Origin: "'*'"
         passthroughBehavior: "when_no_match"
         requestTemplates:
-          application/json: "{\"statusCode\": 200}"
+          application/json: '{"statusCode": 200}'
         type: "mock"
   /task/updatetaskstatus:
     post:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_update_task_status/invocations"
         responses:
@@ -1022,9 +1022,9 @@ paths:
         type: "aws_proxy"
     options:
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
@@ -1047,19 +1047,19 @@ paths:
               method.response.header.Access-Control-Allow-Origin: "'*'"
         passthroughBehavior: "when_no_match"
         requestTemplates:
-          application/json: "{\"statusCode\": 200}"
+          application/json: '{"statusCode": 200}'
         type: "mock"
   /tasklog:
     get:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_taskLog_get/invocations"
         responses:
@@ -1071,9 +1071,9 @@ paths:
         type: "aws_proxy"
     options:
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
@@ -1096,19 +1096,19 @@ paths:
               method.response.header.Access-Control-Allow-Origin: "'*'"
         passthroughBehavior: "when_no_match"
         requestTemplates:
-          application/json: "{\"statusCode\": 200}"
+          application/json: '{"statusCode": 200}'
         type: "mock"
   /team:
     get:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_team_get/invocations"
         responses:
@@ -1120,14 +1120,14 @@ paths:
         type: "aws_proxy"
     post:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_team_create/invocations"
         responses:
@@ -1139,14 +1139,14 @@ paths:
         type: "aws_proxy"
     put:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_team_put/invocations"
         responses:
@@ -1158,14 +1158,14 @@ paths:
         type: "aws_proxy"
     delete:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_team_delete/invocations"
         responses:
@@ -1177,9 +1177,9 @@ paths:
         type: "aws_proxy"
     options:
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
@@ -1202,19 +1202,19 @@ paths:
               method.response.header.Access-Control-Allow-Origin: "'*'"
         passthroughBehavior: "when_no_match"
         requestTemplates:
-          application/json: "{\"statusCode\": 200}"
+          application/json: '{"statusCode": 200}'
         type: "mock"
   /webhook:
     get:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_webHook_get/invocations"
         responses:
@@ -1226,14 +1226,14 @@ paths:
         type: "aws_proxy"
     post:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_webHook_post/invocations"
         responses:
@@ -1245,14 +1245,14 @@ paths:
         type: "aws_proxy"
     put:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_webHook_update/invocations"
         responses:
@@ -1264,14 +1264,14 @@ paths:
         type: "aws_proxy"
     delete:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
         uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_webHook_delete/invocations"
         responses:
@@ -1283,9 +1283,9 @@ paths:
         type: "aws_proxy"
     options:
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
@@ -1308,21 +1308,51 @@ paths:
               method.response.header.Access-Control-Allow-Origin: "'*'"
         passthroughBehavior: "when_no_match"
         requestTemplates:
-          application/json: "{\"statusCode\": 200}"
+          application/json: '{"statusCode": 200}'
         type: "mock"
-  /zap:
+  /zapier:
+    options:
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      responses:
+        200:
+          description: "200 response"
+          schema:
+            $ref: "#/definitions/Empty"
+          headers:
+            Access-Control-Allow-Origin:
+              type: "string"
+            Access-Control-Allow-Methods:
+              type: "string"
+            Access-Control-Allow-Headers:
+              type: "string"
+      x-amazon-apigateway-integration:
+        responses:
+          default:
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Methods: "'DELETE,GET,HEAD,OPTIONS,PATCH,POST,PUT'"
+              method.response.header.Access-Control-Allow-Headers: "'Content-Type,Authorization,X-Amz-Date,X-Api-Key,X-Amz-Security-Token'"
+              method.response.header.Access-Control-Allow-Origin: "'*'"
+        passthroughBehavior: "when_no_match"
+        requestTemplates:
+          application/json: '{"statusCode": 200}'
+        type: "mock"
+  /zapier/auth:
     get:
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
           schema:
             $ref: "#/definitions/Empty"
       security:
-      - lambdaAuth: []
+        - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_zap/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_zapier_auth/invocations"
         responses:
           default:
             statusCode: "200"
@@ -1332,9 +1362,9 @@ paths:
         type: "aws_proxy"
     options:
       consumes:
-      - "application/json"
+        - "application/json"
       produces:
-      - "application/json"
+        - "application/json"
       responses:
         200:
           description: "200 response"
@@ -1357,7 +1387,105 @@ paths:
               method.response.header.Access-Control-Allow-Origin: "'*'"
         passthroughBehavior: "when_no_match"
         requestTemplates:
-          application/json: "{\"statusCode\": 200}"
+          application/json: '{"statusCode": 200}'
+        type: "mock"
+  /zapier/task:
+    post:
+      produces:
+        - "application/json"
+      responses:
+        200:
+          description: "200 response"
+          schema:
+            $ref: "#/definitions/Empty"
+      security:
+        - lambdaAuth: []
+      x-amazon-apigateway-integration:
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_zapier_task_post/invocations"
+        responses:
+          default:
+            statusCode: "200"
+        passthroughBehavior: "when_no_match"
+        httpMethod: "POST"
+        contentHandling: "CONVERT_TO_TEXT"
+        type: "aws_proxy"
+    options:
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      responses:
+        200:
+          description: "200 response"
+          schema:
+            $ref: "#/definitions/Empty"
+          headers:
+            Access-Control-Allow-Origin:
+              type: "string"
+            Access-Control-Allow-Methods:
+              type: "string"
+            Access-Control-Allow-Headers:
+              type: "string"
+      x-amazon-apigateway-integration:
+        responses:
+          default:
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Methods: "'DELETE,GET,HEAD,OPTIONS,PATCH,POST,PUT'"
+              method.response.header.Access-Control-Allow-Headers: "'Content-Type,Authorization,X-Amz-Date,X-Api-Key,X-Amz-Security-Token'"
+              method.response.header.Access-Control-Allow-Origin: "'*'"
+        passthroughBehavior: "when_no_match"
+        requestTemplates:
+          application/json: '{"statusCode": 200}'
+        type: "mock"
+  /zapier/calendar:
+    post:
+      produces:
+        - "application/json"
+      responses:
+        200:
+          description: "200 response"
+          schema:
+            $ref: "#/definitions/Empty"
+      security:
+        - lambdaAuth: []
+      x-amazon-apigateway-integration:
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_zapier_calendar_post/invocations"
+        responses:
+          default:
+            statusCode: "200"
+        passthroughBehavior: "when_no_match"
+        httpMethod: "POST"
+        contentHandling: "CONVERT_TO_TEXT"
+        type: "aws_proxy"
+    options:
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      responses:
+        200:
+          description: "200 response"
+          schema:
+            $ref: "#/definitions/Empty"
+          headers:
+            Access-Control-Allow-Origin:
+              type: "string"
+            Access-Control-Allow-Methods:
+              type: "string"
+            Access-Control-Allow-Headers:
+              type: "string"
+      x-amazon-apigateway-integration:
+        responses:
+          default:
+            statusCode: "200"
+            responseParameters:
+              method.response.header.Access-Control-Allow-Methods: "'DELETE,GET,HEAD,OPTIONS,PATCH,POST,PUT'"
+              method.response.header.Access-Control-Allow-Headers: "'Content-Type,Authorization,X-Amz-Date,X-Api-Key,X-Amz-Security-Token'"
+              method.response.header.Access-Control-Allow-Origin: "'*'"
+        passthroughBehavior: "when_no_match"
+        requestTemplates:
+          application/json: '{"statusCode": 200}'
         type: "mock"
 securityDefinitions:
   lambdaAuth:

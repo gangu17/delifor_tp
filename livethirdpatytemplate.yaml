@@ -9,6 +9,11 @@ Globals:
         constantFileName: constant.json
 
 Resources:
+  ApiGateway:
+    Type: "AWS::Serverless::Api"
+    Properties:
+      StageName: Development
+      DefinitionUri: ./Deliforce_thirdparty_api.yaml
   DeliforcethirdpartydrivergetdMethod:
     Type: AWS::Serverless::Function
     Properties:
@@ -484,6 +489,42 @@ Resources:
       Handler: index.handler
       Runtime: nodejs8.10
       CodeUri: ./Deliforce_third_party_webHook_get/Deliforce_third_party_webHook_get.zip
+      Policies: AWSLambdaFullAccess
+      Role: arn:aws:iam::375196252534:role/deliforceRole
+      MemorySize: 3008
+
+  DeliforcethirdpartyzapierAuth:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: Deliforce_third_party_zapier_auth
+      Timeout: 900
+      Handler: index.handler
+      Runtime: nodejs8.10
+      CodeUri: ./Deliforce_third_party_zapier_auth/Deliforce_third_party_zapier_auth.zip
+      Policies: AWSLambdaFullAccess
+      Role: arn:aws:iam::375196252534:role/deliforceRole
+      MemorySize: 3008
+
+  Deliforcethirdpartyzapiercalendarpost:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: Deliforce_third_party_zapier_calendar_post
+      Timeout: 900
+      Handler: index.handler
+      Runtime: nodejs8.10
+      CodeUri: ./Deliforce_third_party_zapier_calendar_post/Deliforce_third_party_zapier_calendar_post.zip
+      Policies: AWSLambdaFullAccess
+      Role: arn:aws:iam::375196252534:role/deliforceRole
+      MemorySize: 3008
+
+  Deliforcethirdpartyzapiertaskpost:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: Deliforce_third_party_zapier_task_post
+      Timeout: 900
+      Handler: index.handler
+      Runtime: nodejs8.10
+      CodeUri: ./Deliforce_third_party_zapier_task_post/Deliforce_third_party_zapier_task_post.zip
       Policies: AWSLambdaFullAccess
       Role: arn:aws:iam::375196252534:role/deliforceRole
       MemorySize: 3008
