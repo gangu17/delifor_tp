@@ -5,15 +5,8 @@ Globals:
   Function:
     Environment:
       Variables:
-        bucketName: devuser-constant
+        bucketName: lambda-constant2
         constantFileName: constant.json
-
-Resources:
-  ApiGateway:
-    Type: 'AWS::Serverless::Api'
-    Properties:
-      StageName: Development
-      DefinitionUri: ./Deliforce_thirdparty_api.yaml
 
   DeliforcethirdpartydrivergetdMethod:
      Type: AWS::Serverless::Function
@@ -25,7 +18,7 @@ Resources:
        CodeUri: ./Deliforce_third_party_driver_get/Deliforce_third_party_driver_get.zip
        MemorySize: 3008
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
 
   DeliforcethirdpartycustomergetMethod:
      Type: AWS::Serverless::Function
@@ -37,7 +30,7 @@ Resources:
        CodeUri: ./Deliforce_third_party_customer_get/Deliforce_third_party_customer_get.zip
        MemorySize: 3008
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
 
   DeliforcethirdpartyteamcreateMethod:
      Type: AWS::Serverless::Function
@@ -48,7 +41,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_team_create/Deliforce_third_party_team_create.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartytaskalltasksMethod:
@@ -60,7 +53,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_task_alltasks/Deliforce_third_party_task_alltasks.zip
        Policies: AWSLambdaFullAccess   
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
   DeliforcethirdpartytaskfetchbytaskidMethod:
      Type: AWS::Serverless::Function
@@ -71,7 +64,7 @@ Resources:
       Runtime: nodejs8.10
       CodeUri: ./Deliforce_third_party_task_fetch_by_taskid/Deliforce_third_party_task_fetch_by_taskid.zip
       Policies: AWSLambdaFullAccess 
-      Role: arn:aws:iam::786724127547:role/DevUser-poc
+      Role: arn:aws:iam::375196252534:role/deliforceRole
       MemorySize: 3008
 
   DeliforcethirdpartytaskfetchbyorderidMethod:
@@ -83,7 +76,7 @@ Resources:
       Runtime: nodejs8.10
       CodeUri: ./Deliforce_third_party_task_fetch_by_orderid/Deliforce_third_party_task_fetch_by_orderid.zip
       Policies: AWSLambdaFullAccess 
-      Role: arn:aws:iam::786724127547:role/DevUser-poc
+      Role: arn:aws:iam::375196252534:role/deliforceRole
       MemorySize: 3008
   
   DeliforcethirdpartymanagergetMethod:
@@ -95,7 +88,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_manager_get/Deliforce_third_party_manager_get.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
 
@@ -108,7 +101,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_task_update/Deliforce_third_party_task_update.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartytaskassignMethod:
@@ -120,7 +113,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_task_assign/Deliforce_third_party_task_assign.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartydrivercreateMethod:
@@ -132,7 +125,7 @@ Resources:
       Runtime: nodejs8.10
       CodeUri: ./Deliforce_third_party_driver_create/Deliforce_third_party_driver_create.zip
       Policies: AWSLambdaFullAccess
-      Role: arn:aws:iam::786724127547:role/DevUser-poc
+      Role: arn:aws:iam::375196252534:role/deliforceRole
       MemorySize: 3008
 
   DeliforcethirdpartymultipletaskcreateMethod:
@@ -144,7 +137,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_multiple_task_create/Deliforce_third_party_multiple_task_create.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartydriverputMethod:
@@ -156,7 +149,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_driver_put/Deliforce_third_party_driver_put.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartyauthMethod:
@@ -168,7 +161,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_auth/Deliforce_third_party_auth.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartyteamgetMethod:
@@ -180,7 +173,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_team_get/Deliforce_third_party_team_get.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartycustomerpostMethod:
@@ -192,7 +185,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_customer_post/Deliforce_third_party_customer_post.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008  
 
   DeliforcethirdpartycustomerputMethod:
@@ -204,7 +197,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_customer_put/Deliforce_third_party_customer_put.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
   
   DeliforcethirdpartydriverblockUnbockMethod:
@@ -216,7 +209,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_driver_blockUnbock/Deliforce_third_party_driver_blockUnbock.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartydriverdeleteMethod:
@@ -228,7 +221,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_driver_delete/Deliforce_third_party_driver_delete.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartymanagerpostMethod:
@@ -240,7 +233,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_manager_post/Deliforce_third_party_manager_post.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
   
   DeliforcethirdpartyteamdeleteMethod:
@@ -252,7 +245,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_team_delete/Deliforce_third_party_team_delete.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartycustomerdeleteMethod:
@@ -264,7 +257,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_customer_delete/Deliforce_third_party_customer_delete.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008 
 
   DeliforcethirdpartycustomersearchbynameMethod:
@@ -276,7 +269,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_Customer_Search_By_Name/Deliforce_third_party_Customer_Search_By_Name.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008 
 
   DeliforcethirdpartycustomersearchbyphoneMethod:
@@ -288,7 +281,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_customer_search_by_phone/Deliforce_third_party_customer_search_by_phone.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008 
 
 
@@ -301,7 +294,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_driver_location_get/Deliforce_third_party_driver_location_get.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartyfetchdriverbasedondriveridMethod:
@@ -313,7 +306,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_fetchDriverBasedOnDriverId/Deliforce_third_party_fetchDriverBasedOnDriverId.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartyfetchDriverBasedOnteamIdMethod:
@@ -325,7 +318,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_fetchDriverBasedOnteamId/Deliforce_third_party_fetchDriverBasedOnteamId.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartyfetchDriversBasedOnDriverStatusMethod:
@@ -337,7 +330,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_fetchDriversBasedOnDriverStatus/Deliforce_third_party_fetchDriversBasedOnDriverStatus.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
   
   DeliforcethirdpartygetstatusListMethod:
@@ -349,7 +342,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_getstatusList/Deliforce_third_party_getstatusList.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008 
 
   DeliforcethirdpartymanagerdeleteMethod:
@@ -361,7 +354,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_manager_delete/Deliforce_third_party_manager_delete.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008 
 
   DeliforcethirdpartyteamputMethod:
@@ -373,7 +366,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_team_put/Deliforce_third_party_team_put.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartymanagerupdateMethod:
@@ -385,7 +378,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_manager_update/Deliforce_third_party_manager_update.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartytaskmqttMethod:
@@ -397,7 +390,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_task_mqtt/Deliforce_third_party_task_mqtt.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartytaskautoAllocationMethod:
@@ -409,7 +402,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_task_autoAllocation/Deliforce_third_party_task_autoAllocation.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartytaskdeleteMethod:
@@ -421,7 +414,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_task_delete/Deliforce_third_party_task_delete.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartytaskcreateMethod:
@@ -433,7 +426,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_task_post/Deliforce_third_party_task_post.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartyupdatetaskstatusMethod:
@@ -445,7 +438,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_update_task_status/Deliforce_third_party_update_task_status.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartywebhookpostMethod:
@@ -457,7 +450,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_webHook_post/Deliforce_third_party_webHook_post.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartywebhookupdateMethod:
@@ -469,7 +462,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_webHook_update/Deliforce_third_party_webHook_update.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartywebhookdeleteMethod:
@@ -481,7 +474,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_webHook_delete/Deliforce_third_party_webHook_delete.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
 
   DeliforcethirdpartywebhookgetMethod:
@@ -493,7 +486,7 @@ Resources:
        Runtime: nodejs8.10
        CodeUri: ./Deliforce_third_party_webHook_get/Deliforce_third_party_webHook_get.zip
        Policies: AWSLambdaFullAccess
-       Role: arn:aws:iam::786724127547:role/DevUser-poc
+       Role: arn:aws:iam::375196252534:role/deliforceRole
        MemorySize: 3008
  
 
