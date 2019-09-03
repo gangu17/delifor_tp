@@ -493,7 +493,7 @@ Resources:
       Role: arn:aws:iam::375196252534:role/deliforceRole
       MemorySize: 3008
 
-  DeliforcethirdpartyzapierAuth:
+  Deliforcethirdpartyzapierauth:
     Type: AWS::Serverless::Function
     Properties:
       FunctionName: Deliforce_third_party_zapier_auth
