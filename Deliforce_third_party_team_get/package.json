@@ -1,0 +1,18 @@
+{
+  "name": "fetchteams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.381.0",
+    "init": "^0.1.2",
+    "mongoose": "^5.4.0",
+    "mongoose-paginate": "^5.0.3",
+    "paginate": "^0.2.0"
+  }
+}

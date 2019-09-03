@@ -1,0 +1,357 @@
+[
+  {
+    "code": "+91",
+    "codeName": "IN",
+    "coordinates":"28.6139, 77.2090"
+  },
+  {
+    "code": "+1",
+    "codeName": "US",
+    "coordinates":"38.900497, -77.007507"
+  },
+  {
+    "code": "+60",
+    "codeName": "MY",
+    "coordinates":"3.152815, 101.703651"
+  },
+  {
+    "code": "+966",
+    "codeName": "SA",
+    "coordinates":"24.774265, 46.738586"
+  },
+  {
+    "code": "+855",
+    "codeName": "KH",
+    "coordinates":"11.556374, 104.928207"
+  },
+  {
+    "code": "+237",
+    "codeName": "CM",
+    "coordinates":"3.848032, 11.502075"
+  },
+  {
+    "code": "+238",
+    "codeName": "CV",
+    "coordinates":"-11.724150, 19.862240"
+  },
+  {
+    "code": "+599",
+    "codeName": "BQ",
+    "coordinates":"12.201890, -68.262383"
+  },
+  {
+    "code": "+1345",
+    "codeName": "KY",
+    "coordinates":"5.411920, 100.314598"
+  },
+  {
+    "code": "+236",
+    "codeName": "CF",
+    "coordinates":"4.394673, 18.558189"
+  },
+  {
+    "code": "+235",
+    "codeName": "TD",
+    "coordinates":"12.134846, 15.055741"
+  },
+  {
+    "code": "+56",
+    "codeName": "CL",
+    "coordinates":"-33.448891, -70.669266"
+  },
+  {
+    "code": "+86",
+    "codeName": "CN",
+    "coordinates":"39.904202, 116.407394"
+  },
+  {
+    "code": "+61",
+    "codeName": "CX",
+    "coordinates":"-17.496930, 146.076550"
+  },
+  {
+    "code": "+57",
+    "codeName": "CO",
+    "coordinates":"4.710989, -74.072090"
+  },
+  {
+    "code": "+269",
+    "codeName": "KM",
+    "coordinates":"39.524960, -111.581932"
+  },
+  {
+    "code": "+243",
+    "codeName": "CD",
+    "coordinates":"-4.441931  , 15.266293"
+  },
+  {
+    "code": "+242",
+    "codeName": "CG",
+    "coordinates":"-4.263360, 15.242885"
+  },
+  {
+    "code": "+682",
+    "codeName": "CK",
+    "coordinates":"-21.203930, -159.765808"
+  },
+  {
+    "code": "+506",
+    "codeName": "CR",
+    "coordinates":"37.338207, -121.886330"
+  },
+  {
+    "code": "+225",
+    "codeName": "CI",
+    "coordinates":"-26.089149, 28.440760"
+  },
+  {
+    "code": "+385",
+    "codeName": "HR",
+    "coordinates":"45.815010, 15.981919"
+  },
+  {
+    "code": "+53",
+    "codeName": "CU",
+    "coordinates":"37.091736, -95.941925"
+  },
+  {
+    "code": "+599",
+    "codeName": "CW",
+    "coordinates":"12.122422, -68.882423"
+  },
+  {
+    "code": "+357",
+    "codeName": "CY",
+    "coordinates":"35.185566, 33.382275"
+  },
+  {
+    "code": "+420",
+    "codeName": "CZ",
+    "coordinates":"50.0755, 14.4378"
+  },
+  {
+    "code": "+45",
+    "codeName": "DK",
+    "coordinates":"55.6761, 12.5683"
+  },
+  {
+    "code": "+56",
+    "codeName": "CL",
+    "coordinates":"48.8566, -70.669266"
+  },
+  {
+    "code": "+33",
+    "codeName": "FR",
+    "coordinates":"-33.448891, 2.3522"
+  },
+  {
+    "code": "+233",
+    "codeName": "GH",
+    "coordinates":"5.6037, 0.1870"
+  },
+  {
+    "code": "+36",
+    "codeName": "HU",
+    "coordinates":"47.4979, 19.0402"
+  },
+  {
+    "code": "+98",
+    "codeName": "IR",
+    "coordinates":"35.6892, 51.3890"
+  },
+  {
+    "code": "+972",
+    "codeName": "IL",
+    "coordinates":"31.7683, 35.2137"
+  },
+  {
+    "code": "+965",
+    "codeName": "KW",
+    "coordinates":"29.3759, 47.9774"
+  },
+  {
+    "code": "+377",
+    "codeName": "MC",
+    "coordinates":"43.7401, 7.4266"
+  },
+  {
+    "code": "+31",
+    "codeName": "NL",
+    "coordinates":"52.3680, 4.9036"
+  },
+  {
+    "code": "+47",
+    "codeName": "NO",
+    "coordinates":"59.9139, 10.7522"
+  },
+  {
+    "code": "+595",
+    "codeName": "PY",
+    "coordinates":"25.2637, 57.5759"
+  },
+  {
+    "code": "+48",
+    "codeName": "PL",
+    "coordinates":"52.2297, 21.0122"
+  },
+  {
+    "code": "+40",
+    "codeName": "RO",
+    "coordinates":"44.4268, 26.1025"
+  },
+  {
+    "code": "+7",
+    "codeName": "RU",
+    "coordinates":"55.7558, 55.7558"
+  },
+  {
+    "code": "+421",
+    "codeName": "SK",
+    "coordinates":"48.1486, 17.1077"
+  },
+  {
+    "code": "+82",
+    "codeName": "KR",
+    "coordinates":"37.5665, 126.9780"
+  },
+  {
+    "code": "+90",
+    "codeName": "TR",
+    "coordinates":"39.9334, 32.8597"
+  },
+  {
+    "code": "+380",
+    "codeName": "UA",
+    "coordinates":"50.4501, 30.5234"
+  },
+  {
+    "code": "+44",
+    "codeName": "GB",
+    "coordinates":"51.5074, 0.1278"
+  },
+  {
+    "code": "+263",
+    "codeName": "ZW",
+    "coordinates": "17.8252, 31.0335"
+  },
+  {
+    "code": "+81",
+    "codeName": "JP",
+    "coordinates": "35.6895, 139.6917"
+  },
+  {
+    "code": "+962",
+    "codeName": "JO",
+    "coordinates": "31.9454, 35.9284"
+  },
+  {
+    "code": "+254",
+    "codeName": "KE",
+    "coordinates": "1.2921, 36.8219"
+  },
+  {
+    "code": "+52",
+    "codeName": "MX",
+    "coordinates": "19.4326, 99.1332"
+  },
+  {
+    "code": "+212",
+    "codeName": "MA",
+    "coordinates": "33.9716, 6.8498"
+  },
+  {
+    "code": "+264",
+    "codeName": "NA",
+    "coordinates": "22.5609, 17.0658"
+  },
+  {
+    "code": "+234",
+    "codeName": "NG",
+    "coordinates": "9.0765, 7.3986"
+  },
+  {
+    "code": "+850",
+    "codeName": "KP",
+    "coordinates": "39.0392, 125.7625"
+  },
+  {
+    "code": "+968",
+    "codeName": "OM",
+    "coordinates": "23.5859, 58.4059"
+  },
+  {
+    "code": "+507",
+    "codeName": "PA",
+    "coordinates": "8.9824, 79.5199"
+  },
+  {
+    "code": "+51",
+    "codeName": "PE",
+    "coordinates": "12.0464, 77.0428"
+  },
+  {
+    "code": "+351",
+    "codeName": "pt",
+    "coordinates": "38.7223, 9.1393"
+  },
+  {
+    "code": "+974",
+    "codeName": "QA",
+    "coordinates": "25.2854, 51.5310"
+  },
+  {
+    "code": "+381",
+    "codeName": "RS",
+    "coordinates": "44.7866, 20.4489"
+  },
+  {
+    "code": "+65",
+    "codeName": "SG",
+    "coordinates": "1.3644, 103.7753"
+  },
+  {
+    "code": "+386",
+    "codeName": "SI",
+    "coordinates": "46.0569, 14.5058"
+  },
+  {
+    "code": "+27",
+    "codeName": "ZA",
+    "coordinates": "25.7479, 28.2293"
+  },
+  {
+    "code": "+34",
+    "codeName": "ES",
+    "coordinates": "40.4168, 3.7038"
+  },
+  {
+    "code": "+46",
+    "codeName": "SE",
+    "coordinates": "59.3293, 18.0686"
+  },
+  {
+    "code": "+41",
+    "codeName": "CH",
+    "coordinates": "46.9480, 7.4474"
+  },
+  {
+    "code": "+256",
+    "codeName": "UG",
+    "coordinates": "0.3476, 32.5825"
+  },
+  {
+    "code": "+971",
+    "codeName": "AE",
+    "coordinates": "24.4539, 54.3773"
+  },
+  {
+    "code": "+598",
+    "codeName": "UY",
+    "coordinates": "34.9011, 56.1645"
+  },
+  {
+    "code": "+967",
+    "codeName": "YE",
+    "coordinates": "15.3694, 44.1910"
+  }
+]

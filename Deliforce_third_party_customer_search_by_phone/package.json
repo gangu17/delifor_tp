@@ -1,0 +1,16 @@
+{
+  "name": "deliforce_third_party_customer_search_by_phone-aba9f324-8505-4b68-821b-55706e622695",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.382.0",
+    "mongoose": "^5.4.16",
+    "mongoose-validator": "^2.1.0"
+  }
+}
