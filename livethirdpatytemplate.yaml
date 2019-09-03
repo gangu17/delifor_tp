@@ -7,7 +7,7 @@ Globals:
       Variables:
         bucketName: lambda-constant2
         constantFileName: constant.json
-
+  Resources:
   DeliforcethirdpartydrivergetdMethod:
     Type: AWS::Serverless::Function
     Properties:
