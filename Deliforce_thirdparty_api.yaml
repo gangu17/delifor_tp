@@ -19,7 +19,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_customer_get/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_customer_get/invocations"
         responses:
           default:
             statusCode: "200"
@@ -38,7 +38,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_customer_post/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_customer_post/invocations"
         responses:
           default:
             statusCode: "200"
@@ -57,7 +57,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_customer_put/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_customer_put/invocations"
         responses:
           default:
             statusCode: "200"
@@ -76,7 +76,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_customer_delete/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_customer_delete/invocations"
         responses:
           default:
             statusCode: "200"
@@ -125,7 +125,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_Customer_Search_By_Name/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_Customer_Search_By_Name/invocations"
         responses:
           default:
             statusCode: "200"
@@ -174,7 +174,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_customer_search_by_phone/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_customer_search_by_phone/invocations"
         responses:
           default:
             statusCode: "200"
@@ -223,7 +223,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_driver_get/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_driver_get/invocations"
         responses:
           default:
             statusCode: "200"
@@ -242,7 +242,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_driver_create/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_driver_create/invocations"
         responses:
           default:
             statusCode: "200"
@@ -261,7 +261,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_driver_put/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_driver_put/invocations"
         responses:
           default:
             statusCode: "200"
@@ -280,7 +280,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_driver_delete/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_driver_delete/invocations"
         responses:
           default:
             statusCode: "200"
@@ -329,7 +329,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_driver_blockUnbock/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_driver_blockUnbock/invocations"
         responses:
           default:
             statusCode: "200"
@@ -378,7 +378,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_fetchDriverBasedOnDriverId/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_fetchDriverBasedOnDriverId/invocations"
         responses:
           default:
             statusCode: "200"
@@ -427,7 +427,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_fetchDriverBasedOnteamId/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_fetchDriverBasedOnteamId/invocations"
         responses:
           default:
             statusCode: "200"
@@ -476,7 +476,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_fetchDriversBasedOnDriverStatus/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_fetchDriversBasedOnDriverStatus/invocations"
         responses:
           default:
             statusCode: "200"
@@ -525,7 +525,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_driver_location_get/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_driver_location_get/invocations"
         responses:
           default:
             statusCode: "200"
@@ -574,7 +574,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_manager_get/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_manager_get/invocations"
         responses:
           default:
             statusCode: "200"
@@ -593,7 +593,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_manager_post/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_manager_post/invocations"
         responses:
           default:
             statusCode: "200"
@@ -612,7 +612,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_manager_delete/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_manager_delete/invocations"
         responses:
           default:
             statusCode: "200"
@@ -661,7 +661,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_task_alltasks/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_task_alltasks/invocations"
         responses:
           default:
             statusCode: "200"
@@ -680,7 +680,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_task_post/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_task_post/invocations"
         responses:
           default:
             statusCode: "200"
@@ -699,7 +699,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_task_update/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_task_update/invocations"
         responses:
           default:
             statusCode: "200"
@@ -718,7 +718,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_task_delete/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_task_delete/invocations"
         responses:
           default:
             statusCode: "200"
@@ -767,7 +767,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_task_assign/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_task_assign/invocations"
         responses:
           default:
             statusCode: "200"
@@ -816,7 +816,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_getstatusList/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_getstatusList/invocations"
         responses:
           default:
             statusCode: "200"
@@ -865,7 +865,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_task_fetch_by_orderid/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_task_fetch_by_orderid/invocations"
         responses:
           default:
             statusCode: "200"
@@ -914,7 +914,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_task_fetch_by_taskid/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_task_fetch_by_taskid/invocations"
         responses:
           default:
             statusCode: "200"
@@ -963,7 +963,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_task_status_fetch/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_task_status_fetch/invocations"
         responses:
           default:
             statusCode: "200"
@@ -1012,7 +1012,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_update_task_status/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_update_task_status/invocations"
         responses:
           default:
             statusCode: "200"
@@ -1061,7 +1061,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_taskLog_get/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_taskLog_get/invocations"
         responses:
           default:
             statusCode: "200"
@@ -1110,7 +1110,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_team_get/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_team_get/invocations"
         responses:
           default:
             statusCode: "200"
@@ -1129,7 +1129,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_team_create/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_team_create/invocations"
         responses:
           default:
             statusCode: "200"
@@ -1148,7 +1148,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_team_put/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_team_put/invocations"
         responses:
           default:
             statusCode: "200"
@@ -1167,7 +1167,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_team_delete/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_team_delete/invocations"
         responses:
           default:
             statusCode: "200"
@@ -1216,7 +1216,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_webHook_get/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_webHook_get/invocations"
         responses:
           default:
             statusCode: "200"
@@ -1235,7 +1235,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_webHook_post/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_webHook_post/invocations"
         responses:
           default:
             statusCode: "200"
@@ -1254,7 +1254,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_webHook_update/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_webHook_update/invocations"
         responses:
           default:
             statusCode: "200"
@@ -1273,7 +1273,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_webHook_delete/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_webHook_delete/invocations"
         responses:
           default:
             statusCode: "200"
@@ -1322,7 +1322,7 @@ paths:
       security:
       - lambdaAuth: []
       x-amazon-apigateway-integration:
-        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_zap/invocations"
+        uri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_zap/invocations"
         responses:
           default:
             statusCode: "200"
@@ -1366,7 +1366,7 @@ securityDefinitions:
     in: "header"
     x-amazon-apigateway-authtype: "custom"
     x-amazon-apigateway-authorizer:
-      authorizerUri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:786724127547:function:Deliforce_third_party_auth/invocations"
+      authorizerUri: "arn:aws:apigateway:ap-south-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-south-1:375196252534:function:Deliforce_third_party_auth/invocations"
       authorizerResultTtlInSeconds: 300
       type: "token"
 definitions:
